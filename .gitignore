@@ -3,7 +3,7 @@ node_modules
 
 # build artefacts
 public
-css
+# css
 
 # secrets and errors
 .env

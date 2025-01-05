@@ -1,0 +1,47 @@
+@font-face {
+  font-family:Whole Earth Modern;
+  src:url(/assets/fonts/WEMLMRoman8-Regular.woff2) format("woff2"),
+  url(/fonts/WEMLMRoman8-Regular.woff) format("woff");
+  font-weight:400;
+  font-style:normal;
+}
+@font-face {
+  font-family:Whole Earth Modern;
+  src:url(/assets/fonts/WEMLMRoman8-Italic.woff2) format("woff2"),
+  url(/fonts/WEMLMRoman8-Italic.woff) format("woff");
+  font-style:italic;
+}
+@font-face {
+  font-family:Whole Earth Mono;
+  src:url(/assets/fonts/WEMLMMono10-Regular.woff2) format("woff2"),
+  font-weight:400;
+  font-style:normal;
+}
+@font-face {
+  font-family:Whole Earth Mono;
+  src:url(/assets/fonts/WEMLMMono10-Italic.woff2) format("woff2"),
+  font-weight:400;
+  font-style:italic;
+}
+@font-face {
+  font-family:MLMRomanUnsl10;
+  src:url(/assets/fonts/MLMRomanUnsl10-Regular.woff2) format("woff2"),
+  url(/fonts/MLMRomanUnsl10-Regular.woff) format("woff");
+  font-weight:400;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:Computer Modern;
+  src:url(/assets/fonts/cmunrm.woff) format("woff"),
+  font-weight:400;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:Computer Modern;
+  src:url(/assets/fonts/cmunti.woff) format("woff"),
+  font-weight:400;
+  font-style:italic;
+}
+
