@@ -1,16 +1,16 @@
 module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("js");
-    eleventyConfig.addPassthroughCopy("**/*.png");
-    eleventyConfig.addPassthroughCopy("**/*.css");
-    eleventyConfig.addPassthroughCopy("**/*.woff");
-    eleventyConfig.addPassthroughCopy("**/*.woff2");
-    eleventyConfig.addPassthroughCopy("**/*.ttf");
-    eleventyConfig.addPassthroughCopy("**/*.zip");
-    eleventyConfig.addPassthroughCopy("**/*.jpg");
-    eleventyConfig.addPassthroughCopy("**/*.png");
-    eleventyConfig.addPassthroughCopy("**/*.mp4");
-    eleventyConfig.addPassthroughCopy("**/*.yml");
+    eleventyConfig.addPassthroughCopy("png");
+    eleventyConfig.addPassthroughCopy("css");
+    eleventyConfig.addPassthroughCopy("woff");
+    eleventyConfig.addPassthroughCopy("woff2");
+    eleventyConfig.addPassthroughCopy("ttf");
+    eleventyConfig.addPassthroughCopy("zip");
+    eleventyConfig.addPassthroughCopy("jpg");
+    eleventyConfig.addPassthroughCopy("png");
+    eleventyConfig.addPassthroughCopy("mp4");
+    eleventyConfig.addPassthroughCopy("yml");
 
 eleventyConfig.addFilter("addTargetBlank", function(content) {
     const { JSDOM } = require("jsdom");
