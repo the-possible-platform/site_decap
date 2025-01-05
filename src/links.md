@@ -21,7 +21,7 @@ title: Links
     {% for link in category.items | remove:"<p>" | remove:"</p>" %}
 
     
-        <div class="content link">{{ link.templateContent | addTargetBlank }}
+        <div class="content link">{{ link.templateContent }}
         </div>{% endfor %}{% else %}
         </div>
         <p>Keine Beiträge in dieser Kategorie.</p>

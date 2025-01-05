@@ -25,7 +25,7 @@ Eure {{ links_reference.length }} Recherche-Ergebnisse:
 
 {% for link in links_reference %}
   <div class="post">
-    {{ link.content | addTargetBlank | remove: "<p>" | remove: "</p>" }}
+    {{ link.content | remove: "<p>" | remove: "</p>" }}
     {% if link.data.added_by %}
       <span class="added_by">von {{ link.data.added_by }}</span>
     {% else %}
