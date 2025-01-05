@@ -1,0 +1,7 @@
+{
+	"layout":"layouts/submission-00.njk",
+	"tags":"submission",
+	"assignment":"01",
+	"maxWidth": "200"
+}
+
