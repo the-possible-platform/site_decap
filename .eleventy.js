@@ -14,18 +14,18 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("src/**/*.{js,png,css,woff,woff2,ttf,zip,jpg,png,mp4,yml,}");
 
-eleventyConfig.addFilter("addTargetBlank", function(content) {
-    const { JSDOM } = require("jsdom");
-    const dom = new JSDOM(content);
-    const links = dom.window.document.querySelectorAll("a");
+// eleventyConfig.addFilter("addTargetBlank", function(content) {
+//     const { JSDOM } = require("jsdom");
+//     const dom = new JSDOM(content);
+//     const links = dom.window.document.querySelectorAll("a");
 
-    links.forEach(link => {
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
-    });
+//     links.forEach(link => {
+//       link.setAttribute("target", "_blank");
+//       link.setAttribute("rel", "noopener noreferrer");
+//     });
 
-    return dom.serialize();
-  });
+//     return dom.serialize();
+//   });
 
     return {
         dir: {
