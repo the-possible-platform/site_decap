@@ -1,0 +1,16 @@
+{% include "partials/header.njk" %}
+
+
+<body>
+  <header class="sticky"> 
+    {{ title }} 
+    {% if author %}
+    <br> by {{ author }}
+    {% endif %}
+  </header>
+  <main>
+    <div class="submission-00 centered">  
+      {{ content | safe }} 
+    </div>
+
+{% include "partials/footer.njk" %}

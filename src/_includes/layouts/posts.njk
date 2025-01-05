@@ -1,0 +1,16 @@
+{% include "partials/header.njk" %}
+
+
+  <body>
+        <div class="post sticky">
+          {{ title }}
+        </div>
+    <main>
+      <div class="posts">
+       <div class="post post-1"> {{ title }} </div>
+    {{ content | safe }}
+  </div>
+
+
+
+{% include "partials/footer.njk" %}

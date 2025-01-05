@@ -1,0 +1,15 @@
+{% include "partials/header.njk" %}
+
+
+  <body style="overflow-x: auto; white-space: nowrap;">
+<h1 class="post margin sticky">
+  {{ title }}
+</h1>
+    <main>
+      <div class="submissions">
+
+
+    {{ content | safe }}
+      </div>
+
+{% include "partials/footer.njk" %}
