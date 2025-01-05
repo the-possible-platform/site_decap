@@ -1,16 +1,18 @@
 module.exports = function (eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("js");
-    eleventyConfig.addPassthroughCopy("png");
-    eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("woff");
-    eleventyConfig.addPassthroughCopy("woff2");
-    eleventyConfig.addPassthroughCopy("ttf");
-    eleventyConfig.addPassthroughCopy("zip");
-    eleventyConfig.addPassthroughCopy("jpg");
-    eleventyConfig.addPassthroughCopy("png");
-    eleventyConfig.addPassthroughCopy("mp4");
-    eleventyConfig.addPassthroughCopy("yml");
+    // eleventyConfig.addPassthroughCopy("src/../js");
+    // eleventyConfig.addPassthroughCopy("src/../png");
+    // eleventyConfig.addPassthroughCopy("src/../css");
+    // eleventyConfig.addPassthroughCopy("src/../woff");
+    // eleventyConfig.addPassthroughCopy("src/../woff2");
+    // eleventyConfig.addPassthroughCopy("src/../ttf");
+    // eleventyConfig.addPassthroughCopy("src/../zip");
+    // eleventyConfig.addPassthroughCopy("src/../jpg");
+    // eleventyConfig.addPassthroughCopy("src/../png");
+    // eleventyConfig.addPassthroughCopy("src/../mp4");
+    // eleventyConfig.addPassthroughCopy("src/../yml");
+
+    eleventyConfig.addPassthroughCopy("src/**/*.{js,png,css,woff,woff2,ttf,zip,jpg,png,mp4,yml,}");
 
 eleventyConfig.addFilter("addTargetBlank", function(content) {
     const { JSDOM } = require("jsdom");

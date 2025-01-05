@@ -1,12 +1,12 @@
 backend:
   name: git-gateway
   branch: main 
-media_folder: "src/assets/img" # Media files will be stored in the repo under static/images/uploads
+media_folder: "_site/assets/img" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/assets/img"
 collections: 
   - name: "submission-6"
     label: "Submission 6"
-    folder: "src/submissions/submissions-06"
+    folder: "submissions/submissions-06"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" 
     fields:
